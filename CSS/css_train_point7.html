@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Example</title>
+    <style>
+        .overflow-auto {
+            width: 150px;
+            height: 100px;
+            overflow: auto;
+            border: 1px solid black;
+        }
+        .overflow-hidden {
+            width: 150px;
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="overflow-auto">
+        This is an example of overflow: auto. Scrollbars appear when the content overflows.
+        <br> More content here to demonstrate scrolling.
+    </div>
+    <div class="overflow-hidden">
+        This is an example of overflow: hidden. Overflowing content is clipped and hidden.
+        <br> More content here to demonstrate clipping.
+    </div>
+</body>
+</html>
